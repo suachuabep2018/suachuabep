@@ -53,7 +53,7 @@ app.use(flash());
 app.use(Passport.initialize());
 app.use(Passport.session());
 //endpassport.
-mongoose.connect('mongodb://ghemassage:123456@ds263948.mlab.com:63948/ghemassagecentre',{useMongoClient:true});
+mongoose.connect('mongodb://suachuabep:suachuabep123@ds151008.mlab.com:51008/suachuabep',{useMongoClient:true});
 
 
 mongoose.Promise = global.Promise;
